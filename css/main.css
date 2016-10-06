@@ -2,15 +2,24 @@ html {
   background-color:#c9b5ab;
 }
 
-h1, h2 {
+article {
+  font-family: 'PT Serif', serif;
+}
+
+h1 {
   color:#3f1622;
+}
+
+h2 {
+  color:#3f1622;
+  font-family: 'PT Sans', sans-serif;
 }
 
 img {
   width:100%;
 }
 
-blockquote {
+.quote {
   font-size:1.5rem;
   line-height:1.5;
 }
