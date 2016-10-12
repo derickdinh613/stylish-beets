@@ -1,5 +1,6 @@
 html {
   background-color:#c9b5ab;
+  line-height: 1.5;
 }
 
 article {
@@ -10,12 +11,16 @@ h1 {
   font-weight: normal;
   font-family: "PT Sans", sans-serif;
   color:#3f1622;
+  font-size: 1.5rem;
+  font-weight: 700;
+
 }
 
 h2 {
   color:#3f1622;
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 img {
@@ -29,6 +34,7 @@ img {
 
 figcaption {
   text-align:center;
+  font-style: italic;
 }
 
 .days p {
@@ -60,10 +66,24 @@ a[rel="external"] {
 
 }
 
+nav li {
+  list-style: none;
+}
+
 a,
 nav li {
   color: #8f2440;
   font-family:"PT Sans", sans-serif;
   font-size: 1.125rem;
   text-decoration: none;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#ul {
+  list-style-type: circle;
 }
