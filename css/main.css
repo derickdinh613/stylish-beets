@@ -3,17 +3,19 @@ html {
 }
 
 article {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 
 h1 {
-font-weight: normal;
+  font-weight: normal;
+  font-family: "PT Sans", sans-serif;
   color:#3f1622;
 }
 
 h2 {
   color:#3f1622;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
 img {
@@ -30,7 +32,7 @@ figcaption {
 }
 
 .days p {
-  font-size:1.125;
+  font-size:1.125rem;
   line-height:1.5;
   font-weight:bold;
 
@@ -44,6 +46,24 @@ p {
   text-decoration: none;
 }
 
-ol {
+.olone {
   list-style-type: lower-latin;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#222;
+}
+
+a[rel="external"] {
+  background-color: #c9b5ab;
+
+}
+
+a,
+nav li {
+  color: #8f2440;
+  font-family:"PT Sans", sans-serif;
+  font-size: 1.125rem;
+  text-decoration: none;
 }
